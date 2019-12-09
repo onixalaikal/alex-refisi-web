@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>HOME</title>
+<link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<header>
+<img class"logo" src="uks.png" alt="logo" width="60" height="60">
+<h4>UKSSKENSA</h4>
+<nav>
+<ul class="nav_links">
+<li><a href="#home">HOME</a></li>
+<li><a href="#video">PATIENT</a></li>
+<li><a href="#struktur">DRUGS</a></li>
+<li><a href="#profile">NEWS</a></li>
+<li><a href="#profile">ABOUT</a></li>
+</ul>
+</nav>
+</header>
+<div id="awak">
+<div id="caleandar">
+<font size="4" color="#0000ff">DATA PASIEN PERMINGGU</font>
+<hr color="#e5e5e5">
+<TABLE>
+<tr>
+<th>HARI</th>
+<th>JUMLAH</th>
+</tr>
+<tr>
+<td>SENIN</td>
+<td>10</td>
+</tr>
+<tr>
+<td>SELASA</td>
+<td>5</td>
+</tr>
+<tr>
+<td>RABU</td>
+<td>8</td>
+</tr>
+<tr>
+<td>KAMIS</td>
+<td>12</td>
+</tr>
+<tr>
+<td>JUMAT</td>
+<td>9</td>
+</tr>
+</TABLE>
+</div>
+<div id="kanan">
+days : senin
+<TABLE>
+<tr>
+<th>NO</th>
+<th>PETUGAS</th>
+<th>PASIEN</th>
+<th>JAM</th>
+<th>KELUHAN</th>
+<th>TINDAKAN</th>
+</tr>
+<tr>
+<td>1</td>
+<td>SULASTRI</td>
+<td>SULIANA</td>
+<td>08.00</td>
+<td>DILEP</td>
+<td>PEMBERIAN OBAT</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SULASTRI</td>
+<td>SYAHIBA SAUFA</td>
+<td>09.00</td>
+<td>TENSI DARAH</td>
+<td>PRAKTIK MEDIS</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SULASTRI</td>
+<td>VITA ALVIA</td>
+<td>10.00</td>
+<td>PUSING</td>
+<td>RAWAT UKS</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SULASTRI</td>
+<td>TASYA ROSMALA</td>
+<td>12.00</td>
+<td>CEK GULA DARAH</td>
+<td>PRAKTIK MEDIS</td>
+</tr>
+</table>
+</div>
+<div id="jeruh">
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">GRAFIK</button>
+<div id="id01" class="modal">
+    <div class="container">
+	<font size="6" color="#ffffff">DATA PASIEN PERMINGGU</font>
+	<hr>
+		<canvas id="myCanvas"></canvas>
+		<script type="text/javascript" src="script.js"></script>
+	<br>
+	<font size="2" color="#ffffff">KETERANGAN</font>
+	<br>
+	<font size="2" color="#ffffff">RED : SENIN</font>
+	<font size="2" color="#ffffff">YELLOW : SELASA</font>
+	<font size="2" color="#ffffff">GREEN : RABU</font>
+	<font size="2" color="#ffffff">BLUE : KAMIS</font>
+	<font size="2" color="#ffffff">ORANYE : JUMAT</font>
+    </div>
+</div>
+<BR>
+<BR>
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">TAMBAH</button>
+<div id="id02" class="modal">
+    <div class="container">
+	<font size="6" color="#ffffff">DATA PASIEN </font>
+	<hr>
+	<TABLE>
+	<tr>
+	<td>PETUGAS</td>
+	<td> : <input type="text" placeholder="Enter name" name="uname" required></td>
+	</tr>
+	<tr>
+	<td>PASIEN</td>
+	<td> : <input type="text" placeholder="Enter name" name="uname" required></td>
+	</tr>
+	<tr>
+	<td>JAM</td>
+	<td> : <input type="text" placeholder="Enter jam" name="uname" required></td>
+	</tr>
+	<tr>
+	<td>KELUHAN</td>
+	<td> : <input type="text" placeholder="Enter gejala" name="uname" required></td>
+	</tr>
+	<tr>
+	<td>TINDAKAN</td>
+	<td> : <input type="text" placeholder="Enter metode penanganan" name="uname" required></td>
+	</tr>
+	<tr>
+	<td colspan="2"><input type="submit" onclick="patient.html" value="TAMBAH" required></td>
+	</tr>
+	</table>
+    </div>
+</div>
+</div>
+</DIV>
+<div id="aurat">
+<marquee behavior="alternate"><font color="#ffffff"><b>PELAYANAN UKS DIMULAI DARI JAM 08.00 SAMPAI DENGAN 14.00 WIB</b></font></marquee>
+</div>
+<div id="kaki">
+<hr color="#C1C1C1">
+<img src="instagram.png" width="50" height="50" align="left">
+<img src="gmail.png" width="50" height="50" align="right">
+<h6>THE INFORM AT GMAIL uks@skensa.ac.id OR INSTAGRAM uksskensa</h6>
+</div>
+</body>
+</html>

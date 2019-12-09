@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>HOME</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header>
+<img class"logo" src="uks.png" alt="logo" width="60" height="60">
+<h4>UKSSKENSA</h4>
+<nav>
+<ul class="nav_links">
+<li><a href="#home">HOME</a></li>
+<li><a href="#video">VIDEO</a></li>
+<li><a href="#struktur">STRUKTUR</a></li>
+<li><a href="#profile">PROFILE</a></li>
+</ul>
+</nav>
+</header>
+<div id="atas">
+<h1>HOME SITE ON UKS SKENSA</h1><br>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<div id="id01" class="modal">
+  <form class="modal-content animate" action="dashboard2.html">
+    <div class="container">
+	<h1>LOGIN PETUGAS</h1>
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required><br>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+	  <br>
+      <input type="submit">Login</button>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+<div id="tengah">
+<h1>VIDEO UKS</h1>
+<table>
+<tr>
+<td>
+<video width="400" heigth="400" controls>
+<source src="1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</td>
+</tr>
+</table>
+</div>
+<div id="bawah">
+<h1>STRUKTUR</h1><br>
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</DIV>
+<div id="jahannam">
+<h1>PROFILE</h1>
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src="ps.png" width="100" height="100">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</DIV>
+<div id="izroil">
+<marquee behavior="alternate"><font color="#ffffff">JAM PELAYANAN UKS 08.00 SAMPAI DENGAN 14.00 WIB</font></marquee>
+<hr color="#C1C1C1">
+<font color="#ffffff" size="4" face="timesnewroman"><p align="center">THE INFORM AT GMAIL uks@skensa.ac.id OR INSTAGRAM uksskensa</p></font>
+</div>
+</body>
+</html>
